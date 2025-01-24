@@ -1,0 +1,29 @@
+{
+	"name": "advanced-ts-task-manager",
+	"version": "1.0.0",
+	"description": "A type-safe task management system with support for different task types, prioritization, assignment, status tracking, and deadline management.",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/index.js",
+		"dev": "ts-node src/index.ts",
+		"test": "jest"
+	},
+	"dependencies": {
+		"typescript": "^5.0.0"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"@types/node": "^18.0.0",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.0.0"
+	},
+	"keywords": [
+		"typescript",
+		"task management",
+		"type-safe"
+	],
+	"author": "Minnei <3",
+	"license": "MIT"
+}
